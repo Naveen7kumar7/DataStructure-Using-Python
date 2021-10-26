@@ -1,0 +1,17 @@
+def sorted_string(string):
+    words =string.split()
+    words.sort()
+    new_string = " ".join(words)
+    return new_string
+    
+string = ("this is an impossible task")
+print(sorted_string(string))
+
+# using ...Bubble sort algorithm....
+#
+#list =["this is an impossible task"]
+#for j in range(len(list)-1):
+#    for i in range(len(list)-1):
+#         if list[i] > list[i+1]:
+#             list[i],list[i+1] = list[i+1],list[i]
+#             print("sorted string",list)
